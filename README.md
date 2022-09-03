@@ -1,9 +1,9 @@
 # portofolio
 
-Do not expect the expected unexpected!
-    Or better said...
-        Expect the expected unexpected!
-Or muffins & coffee ♥
+Do not expect the expected unexpected!<br/>
+Or better said...<br/>
+Expect the expected unexpected!<br/>
+Or muffins & coffee ♥<br/>
 <!-- 
 OK, maybe last time I forgot to add some updates here, it happens even with the best of us...
 Sadly...
