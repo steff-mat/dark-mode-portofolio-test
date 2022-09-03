@@ -13,7 +13,7 @@ html {
 }
 
 .buttons {
-    width: 100%;
+    width: 30px;
     height: 30px;
     position: absolute;
     z-index: 100;
@@ -69,6 +69,6 @@ USE BELOW FOR TESTING PURPOSE ONLY
 }
 @media only screen and (max-width: 420px) {
     .buttons {
-        top: 100px;
+        top: 120px;
     }
 }
