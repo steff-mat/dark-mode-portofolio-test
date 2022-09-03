@@ -3,6 +3,10 @@
     --round-corners: 10px;
 }
 
+html {
+    min-width: 100px !important; /*USE FOR TESTING PURPOSE ONLY*/
+}
+
 .logo {
     border-radius: var(--round-corners);
     margin-bottom: 100px;
@@ -13,10 +17,21 @@
     height: 30px;
     position: absolute;
     z-index: 100;
-    top: 0;
+    top: 250px;
+}
+
+.left {
+    left: 0;
+    position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: left;
+}
+
+.right {
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: right;
 }
 
 .bg-box-color {
@@ -28,4 +43,32 @@
 .space-holder {
     width: 100%;
     height: 500px;
+}
+/* 
+USE BELOW FOR TESTING PURPOSE ONLY
+ */
+@media only screen and (max-width: 60px) {
+    .buttons {
+        top: 60px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .buttons {
+        top: 170px;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .buttons {
+        top: 170px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .buttons {
+        top: 150px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .buttons {
+        top: 100px;
+    }
 }
